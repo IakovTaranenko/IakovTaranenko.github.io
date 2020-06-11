@@ -1,6 +1,6 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <link rel="icon" type="" href="">
-<meta name="description" content="Test">
+<meta name="description" content="Portfolio">
 <meta name="author" content="Iakov Taranenko">  
 <meta property="og:image" content="">  
 <style>
@@ -16,15 +16,13 @@ letter-spacing:3px;
 <title>Iakov Taranenko</title>
 
 <!-- Disable Inspect Element and Console as it Breaks the GL Sim and shows the buggy code-->
+<!-- In Order: F12, U, Ctrl, Shift, J, C, I-->
  	<script type="text/javascript">
     window.onkeydown = function(evt) {
-        if(evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
+        if(evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 67 || evt.keyCode == 73) 
+          return false;
     };
 
-    window.onkeypress = function(evt) {
-        if(evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
-    };
-	
 function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };
 $(document).on("keydown", disableF5);
 </script>
